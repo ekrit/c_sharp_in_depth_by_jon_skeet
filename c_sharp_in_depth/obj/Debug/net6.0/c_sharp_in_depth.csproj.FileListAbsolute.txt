@@ -1,0 +1,15 @@
+C:\C# in depth\c_sharp_in_depth\c_sharp_in_depth\bin\Debug\net6.0\c_sharp_in_depth.exe
+C:\C# in depth\c_sharp_in_depth\c_sharp_in_depth\bin\Debug\net6.0\c_sharp_in_depth.deps.json
+C:\C# in depth\c_sharp_in_depth\c_sharp_in_depth\bin\Debug\net6.0\c_sharp_in_depth.runtimeconfig.json
+C:\C# in depth\c_sharp_in_depth\c_sharp_in_depth\bin\Debug\net6.0\c_sharp_in_depth.dll
+C:\C# in depth\c_sharp_in_depth\c_sharp_in_depth\bin\Debug\net6.0\c_sharp_in_depth.pdb
+C:\C# in depth\c_sharp_in_depth\c_sharp_in_depth\obj\Debug\net6.0\c_sharp_in_depth.csproj.AssemblyReference.cache
+C:\C# in depth\c_sharp_in_depth\c_sharp_in_depth\obj\Debug\net6.0\c_sharp_in_depth.GeneratedMSBuildEditorConfig.editorconfig
+C:\C# in depth\c_sharp_in_depth\c_sharp_in_depth\obj\Debug\net6.0\c_sharp_in_depth.AssemblyInfoInputs.cache
+C:\C# in depth\c_sharp_in_depth\c_sharp_in_depth\obj\Debug\net6.0\c_sharp_in_depth.AssemblyInfo.cs
+C:\C# in depth\c_sharp_in_depth\c_sharp_in_depth\obj\Debug\net6.0\c_sharp_in_depth.csproj.CoreCompileInputs.cache
+C:\C# in depth\c_sharp_in_depth\c_sharp_in_depth\obj\Debug\net6.0\c_sharp_in_depth.dll
+C:\C# in depth\c_sharp_in_depth\c_sharp_in_depth\obj\Debug\net6.0\refint\c_sharp_in_depth.dll
+C:\C# in depth\c_sharp_in_depth\c_sharp_in_depth\obj\Debug\net6.0\c_sharp_in_depth.pdb
+C:\C# in depth\c_sharp_in_depth\c_sharp_in_depth\obj\Debug\net6.0\c_sharp_in_depth.genruntimeconfig.cache
+C:\C# in depth\c_sharp_in_depth\c_sharp_in_depth\obj\Debug\net6.0\ref\c_sharp_in_depth.dll
