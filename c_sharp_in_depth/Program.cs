@@ -4,13 +4,11 @@ using c_sharp_in_depth.Lessons;
 
 Console.WriteLine("Hello, World!");
 
-var names = Generics<string>.GenerateNames();
-
-names.Add("Haris");
-names.Add("Messi");
-names.Add("Ronaldo");
-names.Add("Neymar");
-
-Generics<string>.PrintNames(names);
+foreach (var one in Iterators.Fibonacci())
+{
+    Console.WriteLine(one);
+    if (one > 1000)
+        break;
+}
 
 
