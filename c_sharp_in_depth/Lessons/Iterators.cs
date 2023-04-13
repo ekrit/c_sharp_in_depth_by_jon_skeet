@@ -32,7 +32,7 @@ public class Iterators
     public static IEnumerable<string> Iterator()
     {
         try
-        {
+        {   
             Console.WriteLine("Before first yield");
             yield return "first";
             Console.WriteLine("Between yields");
