@@ -4,12 +4,22 @@ using c_sharp_in_depth.Lessons;
 
 Console.WriteLine("Hello, World!");
 
+List<dynamic> source = new List<dynamic>
+{
+ "haris",
+ 5,
+ 2.75,
+ TimeSpan.FromSeconds(45)
+};
 
-var actions = Lambda.CreateCountingActions(); 
+IEnumerable<dynamic> query = source.Select(x => x);
 
-actions[0]();
-actions[0]();
-actions[1]();
-actions[1]();
+foreach (dynamic value in query)
+{
+ Console.WriteLine(value);
+}
+
+
+
 
 
