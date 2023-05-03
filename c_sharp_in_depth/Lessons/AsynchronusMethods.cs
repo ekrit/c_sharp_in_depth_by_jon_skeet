@@ -8,7 +8,7 @@ public class AsynchronusMethods
         Task<string> fetchTextTask = client.GetStringAsync(url);
         int length = (await fetchTextTask).Length;
         return length;
-    }
+    } 
     
     static void PrintPageLength()
     {
@@ -17,6 +17,6 @@ public class AsynchronusMethods
         Console.WriteLine(lengthTask.Result);
     }
     
+     
     
-    
-}
+} 
