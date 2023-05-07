@@ -17,6 +17,5 @@ public class AsynchronusMethods
         Console.WriteLine(lengthTask.Result);
     }
     
-            
     
 } 
