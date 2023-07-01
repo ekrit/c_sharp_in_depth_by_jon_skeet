@@ -3,7 +3,7 @@
 public class Dynamic
 {
     /*
-        static void Add(dynamic d)
+        static void Add(dynamic d) 
         {
             Console.WriteLine(d + d); 
         } 

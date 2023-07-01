@@ -13,7 +13,7 @@ public class GenericVariance
     
     static IEnumerable<string> strings2 = new[] { "a", "b", "cdefg", "hij" };
     List<object> list2 = strings2
-        .Where(x => x.Length > 1)
+        .Where(x => x.Length > 1) 
         .ToList<object>();
     
      
