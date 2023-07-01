@@ -16,6 +16,9 @@ public class AsynchronusMethods
             GetPageLengthAsync("http://csharpindepth.com");
         Console.WriteLine(lengthTask.Result);
     }
-    
+
+    static async Task AsyncFunction()
+    {
+    }
     
 } 
