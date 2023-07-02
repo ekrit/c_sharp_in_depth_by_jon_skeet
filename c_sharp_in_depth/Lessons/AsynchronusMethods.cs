@@ -9,13 +9,16 @@ public class AsynchronusMethods
         int length = (await fetchTextTask).Length;
         return length;
     } 
-    
+     
     static void PrintPageLength()
     {
         Task<int> lengthTask = 
             GetPageLengthAsync("http://csharpindepth.com");
         Console.WriteLine(lengthTask.Result);
     }
-    
+
+    static async Task AsyncFunction()
+    {
+    }
     
 } 

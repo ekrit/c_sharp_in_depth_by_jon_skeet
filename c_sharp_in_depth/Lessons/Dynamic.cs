@@ -3,10 +3,10 @@
 public class Dynamic
 {
     /*
-        static void Add(dynamic d)
+        static void Add(dynamic d) 
         {
             Console.WriteLine(d + d); 
-        }
+        } 
         Add("text");
         Add(10);
         Add(TimeSpan.FromMinutes(45));
