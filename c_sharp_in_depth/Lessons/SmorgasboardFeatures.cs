@@ -22,7 +22,7 @@ public class SmorgasboardFeatures
           double radians = degrees * PI / 180; 
           return new Point( 
           Cos(radians) * magnitude, 
-          Sin(radians) * magnitude); 
+          Sin(radians) * magnitude);  
          }
             
      */
