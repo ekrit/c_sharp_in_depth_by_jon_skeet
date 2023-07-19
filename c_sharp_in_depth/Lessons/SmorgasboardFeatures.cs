@@ -26,4 +26,42 @@ public class SmorgasboardFeatures
          }
             
      */
+    
+    /*
+            var readingCustomers = allCustomers
+                .Where(c => c.Profile.DefaultShippingAddress.Town == "Reading");
+                
+            what if some of these are null
+            
+            var readingCustomers = allCustomers
+                .Where(c => c.Profile != null &&
+                c.Profile.DefaultShippingAddress != null &&
+                c.Profile.DefaultShippingAddress.Town == "Reading");
+                
+            this is a lot of code
+            
+            var readingCustomers = allCustomers
+                .Where(c => c.Profile?.DefaultShippingAddress?.Town == "Reading");
+                
+            ? fixes everything here
+            
+            ---------------------------------------------------------------------------
+            
+            if (name?.Equals("X") ?? false)
+            
+            is same as
+            
+            if (name?.Equals("X") == true)
+            
+            ---------------------------------------------------------------------------
+            
+            if (name?.Equals("X") ?? true)
+            
+            is same as
+            
+            if (name?.Equals("X") != false)
+            
+            ---------------------------------------------------------------------------
+            
+     */
 }
