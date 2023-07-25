@@ -4,14 +4,9 @@ using c_sharp_in_depth.Lessons;
 
 Console.WriteLine("Hello, World!");
 
-int[] values = { 2, 7, 3, -5, 1, 0, 10 };
-var extremes = Tuples.MinMax(values);
+var array = new[] {("a", 10)};
 
-var minimal = extremes.min;
-var maximal = extremes.max;
-
-Console.WriteLine(minimal); 
-Console.WriteLine(maximal);
-
-Console.WriteLine();
+var t1 = (x: "x", y: "y", z: 1);
+var t2 = ("x", "y", 1);
+Console.WriteLine(t1 == t2);
 
