@@ -2,6 +2,8 @@
 
 public class Tuples
 {
+        //Tuples act as bags of elements with no encapsulation
+        
     public static (int min, int max) MinMax(IEnumerable<int> source)
     {
         using var iterator = source.GetEnumerator();
